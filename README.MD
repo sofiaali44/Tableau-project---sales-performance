@@ -1,45 +1,66 @@
-# Intorduction
+# 📊 Sales Performance Dashboard
 
-This user story outlines the specifications for building sales dashboards using tableau to help stakeholders, including sales managers and executives to analyze sales performance. 
+## 📌 Introduction
 
-# Sales Dashboard | Requirements
-## Dashboard Purpose
-The purpose of sales dashboard is to present an overview of the sales metrics and trends in order to analyze year-over-year sales performance and understand sales trends.
+This user story outlines the specifications for building a Sales Performance Dashboard using Tableau. The goal is to help stakeholders — including sales managers and executives — analyze year-over-year performance and identify key sales trends.
 
-## Key Requirements
-### KPI Overview
+## 🎯 Dashboard Purpose
 
-Display a summary of total sales, profits and quantity for the current year and the previous year.
+The purpose of the dashboard is to present an overview of key sales metrics and trends, enabling users to analyze performance and derive actionable insights.
 
-### Sales Trends
- – Present the data for each KPI on a monthly basis for both the current year and the previous year.Data analytics tools
+---
 
+## 🧩 Key Requirements
 
- – Identify months with highest and lowest sales and make them easy to recognize.
+### ✅ KPI Overview
+- Show a summary of **Total Sales**, **Profit**, and **Quantity** for both the current year and the previous year.
 
-### Product Subcategory Comparison
- – Compare sales performance by different product subcategories for the current year and the previous year.
+### 📈 Sales Trends
+- Display each KPI monthly for both the current and previous year.
+- Identify and visually highlight the months with **highest** and **lowest** sales.
 
- – Include a comparison of sales with profit.
+### 🛍 Product Subcategory Comparison
+- Compare sales performance across different product subcategories.
+- Include a visual comparison between **Sales** and **Profit**.
 
-### Weekly Trends for Sales & Profit
- – Present weekly sales and profit data for the current year.
+### 📅 Weekly Trends (Sales & Profit)
+- Present **weekly data** for sales and profit (current year).
+- Show **average weekly values**.
+- Highlight weeks that are **above** or **below** average.
 
- – Display the average weekly values.
+---
 
- – Highlight weeks that are above and below the average to draw attention to sales & profit performance.
+## 🎨 Design & Interactivity
 
+### 🧠 Dashboard Dynamics
+- Users should be able to **select the desired year** to view historical data.
+- Enable **easy navigation** between multiple dashboards (if applicable).
+- Charts and graphs should be **interactive**, with filters enabled directly through visual elements.
 
-# Design & Interactivity Requirements
-## Dashboard Dynamic
- – The Dashboard should allow users to check historical data by offering them the flexibility to select any desired year.
+### 🔍 Data Filters
+- Allow filtering by:
+  - **Product Info**: Category, Subcategory
+  - **Location Info**: Region, State, City
 
+---
 
- – Provide users with the ability to navigate between the dashboards easily.
+## 🌐 Live Dashboard
 
- – Make the charts and graphs interactive, enabling users to filter data using the charts.
+👉 [View on Tableau Public](https://public.tableau.com/views/tableauproject2_17528231305380/salesdashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-## Data Filters
-Allow users to filter data by product information like category and subcategory and by location information like region, state and city.Data analytics toolsss
+---
+
+## 🛠 Tools Used
+
+- Tableau
+- Microsoft Excel (for data cleaning)
+- Basic Statistical Analysis
+
+---
+
+## 📌 Note
+
+This project was developed as part of a personal data visualization portfolio to demonstrate Tableau skills in building dynamic, filterable dashboards.
+
 
 
